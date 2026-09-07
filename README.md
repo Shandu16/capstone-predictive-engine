@@ -45,3 +45,34 @@ During the client onboarding lifecycle, STADIOEquities encounters a significant 
 The specific, individual-level behavioral triggers and friction points that precede departure are unclear, despite leadership monitoring macro-level drop-off measures, such as a decrease in sign-up-to-deposit conversion from 64% to 59% over the previous two years. Product and marketing teams are forced to rely on a generic, fixed-schedule intervention strategy that fails to meet a variety of user demands since the company is currently unable to differentiate between a user who needs more time and one who is permanently stalled.  
 
 Thankfully, STADIOEquities has up to six years of clean, digital-native data that includes demographic profiles, acquisition channels, KYC process timestamps, and granular app and online session habits. The goal of this research is to find the multivariate drivers of onboarding abandonment by mining this historical dataset. The company needs to shift from speculative, one-size-fits-all communications to evidence-based insights, which is why this study is essential. This research will help design the focused, real-time interventions required to dramatically enhance the 59% baseline activation rate and create a sustainable, revenue-generating client base by identifying precisely which behavioral sequences predict a failure to pay. 
+
+## RAAIDD log
+# RISKS
+Data Privacy: POPIA compliance restrictions may delay access to granular user demographic data.
+Class Imbalance: With 41% of accounts unfunded, models may become biased toward predicting failure.
+Concept Drift: Historical user behavior from 4 years ago may no longer accurately represent new, younger investors.
+If the model's precision is low, it could trigger too many false-positive interventions, overwhelming clients.
+
+# Actions
+Extract, clean, and anonymize the last 4-6 years of app session, KYC, and funding data.
+Engineer behavioral features, specifically calculating time spent on each KYC step and session durations.
+Train and tune machine learning classification models (e.g., Random Forest, XGBoost).
+Design an A/B testing framework to measure the impact of model-driven interventions against the current fixed-schedule emails.
+
+# Assumptions
+The behavioral friction markers that caused drop-offs in the past will remain reliable predictors for future users.
+The R180 Customer Acquisition Cost (CAC) will remain relatively stable over the project lifecycle.
+Users who stall during KYC do so because of UI friction or confusion, rather than simply not having money to deposit.
+The marketing and engineering teams have the technical capability to integrate real-time API triggers based on the model's output.
+ 
+# Issues 
+Client identities currently span isolated app, web, and marketing databases, requiring immediate, complex data engineering to establish a single unified client_id before modeling can begin.
+
+# Decisions
+The analytical scope is strictly limited to predicting the first deposit ("activation gap"), specifically excluding long-term portfolio churn or premium tier upselling.
+
+# Dependencies 
+Feature engineering is entirely dependent on successfully joining the behavioral dataset with the marketing/acquisition dataset.
+Designing targeted onboarding interventions depends on achieving a high ROC-AUC score on the final classification model.
+Deployment of real-time nudges depends on strict approval from the STADIOEquities compliance and risk teams.
+The initial exploratory data analysis (EDA) phase depends on the IT department providing timely access to the secure data warehouse.
