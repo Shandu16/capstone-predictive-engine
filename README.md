@@ -25,3 +25,23 @@ This repository is organized to separate data, experimental setups, and modular 
 1. Clone the repository: `git clone [Your-Repo-Link-Here]`
 2. Install the required dependencies: `pip install -r requirements.txt`
 3. Run the initial data processing notebook located in `/experiments`.
+
+#MOTIVATION
+
+By quickly growing to 2.3 million registered accounts, STADIOEquities has effectively eliminated the conventional obstacles to retail investment. However, a growing "activation gap" between account registration and initial investment poses a serious structural danger to the platform's fundamental business model. In the last two years, sign-up to first-deposit conversion rate has declined from 64% to 59%. On the other hand, 41% of all registered accounts remained inactive. Additionally, in the first 6 months of onboarding, early account dormancy increased to 31%.  
+
+An inactive account earns zero revenue while still incurring operating and regulatory costs because the platform's revenue is solely dependent on funded activity, notably assets under management (38%), brokerage fees (29%), and interest margins (17%). 
+
+This issue has a serious financial impact. The 41% of accounts that are still vacant amount to hundreds of millions of Rands in lost marketing expenditures, considering the R180 cost of acquiring each new user. According to the briefing data, onboarding abandonment is concentrated around particular behaviors, acquisition channels, and KYC friction points rather than occurring randomly. However, the fixed-schedule, "one-size-fits-all" communication approach used in current interventions ignores the various reasons why users stall. The board's main 2030 strategic goal, "Activate the accounts that are already present," is precisely aligned with fixing this inefficiency, which is crucial for long-term growth. 
+
+This initiative is crucial because it bases our knowledge of user attrition on actual data rather than conjecture. It offers insight into the precise causes of squandered acquisition expenditures, pinpointing the areas where the most promising customers are lost. It shows exactly when and why users leave the funnel by substituting unambiguous behavioral cues for conjecture. The activation funnel won't be automatically fixed by this project, but it will offer the fundamental analysis needed to do so.  
+
+This study will identify the specific friction points leading to desertion by examining past app behavior, KYC progression, and funding delays. In the end, these results will assist data-driven decisions to increase the R180 cost-recovery rate and create a more engaged clientele by giving product leadership and marketing teams the evidence they need to create focused, context-aware onboarding interventions.
+
+# PROBLEM STATEMENT
+
+During the client onboarding lifecycle, STADIOEquities encounters a significant income bottleneck: 41% of its 2.3 million registered users do not make a first deposit, resulting in hundreds of millions of Rands in unrecovered acquisition costs (at R180 per user). Because unfilled accounts earn no platform or brokerage fees while continuing to incur continuous regulatory and operational costs, this activation gap effectively undermines the firm's primary economic model.  
+
+The specific, individual-level behavioral triggers and friction points that precede departure are unclear, despite leadership monitoring macro-level drop-off measures, such as a decrease in sign-up-to-deposit conversion from 64% to 59% over the previous two years. Product and marketing teams are forced to rely on a generic, fixed-schedule intervention strategy that fails to meet a variety of user demands since the company is currently unable to differentiate between a user who needs more time and one who is permanently stalled.  
+
+Thankfully, STADIOEquities has up to six years of clean, digital-native data that includes demographic profiles, acquisition channels, KYC process timestamps, and granular app and online session habits. The goal of this research is to find the multivariate drivers of onboarding abandonment by mining this historical dataset. The company needs to shift from speculative, one-size-fits-all communications to evidence-based insights, which is why this study is essential. This research will help design the focused, real-time interventions required to dramatically enhance the 59% baseline activation rate and create a sustainable, revenue-generating client base by identifying precisely which behavioral sequences predict a failure to pay. 
