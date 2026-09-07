@@ -22,7 +22,7 @@ This repository is organized to separate data, experimental setups, and modular 
 * Matplotlib & Seaborn (Data visualization)
 
 ## Setup Instructions
-1. Clone the repository: `git clone [Your-Repo-Link-Here]`
+1. Clone the repository: `git clone [https://github.com/Shandu16/capstone-predictive-engine.git]`
 2. Install the required dependencies: `pip install -r requirements.txt`
 3. Run the initial data processing notebook located in `/experiments`.
 
