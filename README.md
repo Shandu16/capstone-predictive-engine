@@ -83,7 +83,10 @@ The initial exploratory data analysis (EDA) phase depends on the IT department p
 This repository contains the machine learning pipeline applied to the UCI Bank Marketing Dataset to predict if a client will subscribe to a term deposit.
 
 ## Project Navigation
-* [Preprocessing Details](Preprocessing.MD) 
-* [Feature Engineering Details](FeatureEngineering.MD) 
-* [Model 1: XGBoost Classifier](Model1.MD) 
-* [Model 2: Random Forest Classifier](Model2.MD)
+* [Preprocessing Details](Experimental%20setup/Preprocessing.MD) 
+* [Feature Engineering Details](Experimental%20setup/FeatureEngineering.MD) 
+* [Model 1: XGBoost Classifier](Models/Model1.MD) 
+* [Model 2: Random Forest Classifier](Models/Model2.MD) 
+* [Model 1 Performance](Experimental%20results/Model1Performance.MD)
+* [Model 2 Performance](Experimental%20results/Model2Performance.MD)
+* [Model Comparison](Statistical%20helper%20and%20comparison%20scripts/Comparison.MD)
