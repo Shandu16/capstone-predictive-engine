@@ -76,3 +76,14 @@ Feature engineering is entirely dependent on successfully joining the behavioral
 Designing targeted onboarding interventions depends on achieving a high ROC-AUC score on the final classification model.
 Deployment of real-time nudges depends on strict approval from the STADIOEquities compliance and risk teams.
 The initial exploratory data analysis (EDA) phase depends on the IT department providing timely access to the secure data warehouse.
+
+
+# Bank Marketing Predictive Engine
+
+This repository contains the machine learning pipeline applied to the UCI Bank Marketing Dataset to predict if a client will subscribe to a term deposit.
+
+## Project Navigation
+* [Preprocessing Details](Preprocessing.MD) 
+* [Feature Engineering Details](FeatureEngineering.MD) 
+* [Model 1: XGBoost Classifier](Model1.MD) 
+* [Model 2: Random Forest Classifier](Model2.MD)
