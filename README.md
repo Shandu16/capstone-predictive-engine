@@ -95,5 +95,5 @@ This repository contains the machine learning pipeline applied to the UCI Bank M
    ## Video Presentation
    Watch the project presentation (SS1–SS3, for business and data science stakeholders): [STADIOEquities Capstone Presentation](https://stadiomultiversity-my.sharepoint.com/:v:/g/personal/26304936_stadio_ac_za/IQA73jweVv6VQpKjIlXzE7abASQv8QI2YzJLaOBhYNm2I9Y?email=MiaG%40stadio.ac.za&e=6scx0y)
 
-   Slides: [STADIOEquities_Capstone_Presentation.pptx](STADIOEquities_Capstone_Presentation.pptx)
-   
+   Slides: [STADIOEquities_Capstone_Presentation.pptx](https://stadiomultiversity-my.sharepoint.com/:p:/g/personal/26304936_stadio_ac_za/IQBVZryTL33UQr4k6eMVHaz9AdgpjDLla43RMEuQmzRlRMY?e=2WPQuF)
+
