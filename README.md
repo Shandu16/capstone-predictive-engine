@@ -90,3 +90,10 @@ This repository contains the machine learning pipeline applied to the UCI Bank M
 * [Model 1 Performance](Experimental%20results/Model1Performance.MD)
 * [Model 2 Performance](Experimental%20results/Model2Performance.MD)
 * [Model Comparison](Statistical%20helper%20and%20comparison%20scripts/Comparison.MD)
+
+
+   ## Video Presentation
+   Watch the project presentation (SS1–SS3, for business and data science stakeholders): [STADIOEquities Capstone Presentation](https://stadiomultiversity-my.sharepoint.com/:v:/g/personal/26304936_stadio_ac_za/IQA73jweVv6VQpKjIlXzE7abASQv8QI2YzJLaOBhYNm2I9Y?email=MiaG%40stadio.ac.za&e=6scx0y)
+
+   Slides: [STADIOEquities_Capstone_Presentation.pptx](STADIOEquities_Capstone_Presentation.pptx)
+   

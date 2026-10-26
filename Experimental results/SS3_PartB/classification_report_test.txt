@@ -1,0 +1,8 @@
+              precision    recall  f1-score   support
+
+  Not funded     0.9936    0.7008    0.8219      2871
+      Funded     0.6162    0.9907    0.7598      1392
+
+    accuracy                         0.7954      4263
+   macro avg     0.8049    0.8457    0.7908      4263
+weighted avg     0.8703    0.7954    0.8016      4263
